@@ -1,4 +1,4 @@
-from book import Book
+from src.book import Book
 def main():
     bookList = []
     while(True):
@@ -14,6 +14,6 @@ def main():
         print(book)
       elif(whatToPrint=="name"):
         print(book.name)
-        
+
 if __name__ == '__main__':
     main()
